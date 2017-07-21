@@ -2,7 +2,6 @@ FROM anarh/h_centos6.6
 
 RUN yum update -y &&  \
     yum install -y \
-      yum-plugin-ovl \
       graphviz \
       ImageMagick \
       ImageMagick-devel; yum clean all
