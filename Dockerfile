@@ -4,7 +4,7 @@ RUN yum update -y &&  \
     yum install -y \
       yum-plugin-ovl \
       graphviz \
-      ImageMagick && \
+      ImageMagick \
       ImageMagick-devel && \
     yum clean all
 
