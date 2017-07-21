@@ -5,8 +5,7 @@ RUN yum update -y &&  \
       yum-plugin-ovl \
       graphviz \
       ImageMagick \
-      ImageMagick-devel && \
-    yum clean all
+      ImageMagick-devel; yum clean all
 
 #run the rest as a non-root account
 #it's a hack to make the uid fixed at 1000 due to virtualbox bind-mount permissions
